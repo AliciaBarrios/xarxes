@@ -1,0 +1,201 @@
+/*Estils generals*/
+
+*,
+*:before,
+*:after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: rgb(43,52,69);
+}
+
+html {
+    font-family: Verdana, Tahoma, sans-serif;
+}
+
+.main-container {
+    width: 80vw; 
+    max-width: 800px; 
+    margin-left: auto; 
+    margin-right: auto;
+}
+
+.intro-container {
+    width: 85%;
+    margin: 1rem auto;
+}
+
+.link {
+    color: rgb(254, 105, 106);
+    text-decoration: none;
+}
+
+.link:hover {
+    color: rgb(254, 105, 106,0.5);
+}
+
+/*Estils capçalera i barra navegació*/
+
+.header-container {
+    background-color: rgb(241, 245, 249);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+nav ul {
+    padding: 0;
+    margin: 0.75rem;
+}
+
+nav ul a {
+    text-decoration: none;
+    margin-bottom: 0.8rem;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+nav ul a:hover {
+    color: rgb(43, 52, 69, 0.5);
+} 
+
+nav ul li {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.item-visited-page {
+    text-decoration: none;
+    color: rgb(254, 105, 106);
+}
+
+/*Estils textos*/
+
+h1 a {
+    text-decoration: none;
+    font-size: 3rem;
+}
+
+h1 a:hover {
+    color: rgba(43,52,69,0.5);
+}
+
+.special-letter {
+    font-family: Georgia, 'Times New Roman', serif;
+    font-size: 4.5rem;
+    font-style: italic;
+    color: inherit;
+}
+
+h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin: 1rem 0;
+}
+
+h3 {
+    font-size: 1.75rem;
+}
+
+h4 {
+    font-size: 1.25rem;
+}
+
+.font-size-xs {
+    font-size: 0.8rem;
+}
+
+.italic-text {
+    font-style: italic;
+}
+
+p, 
+section {
+    line-height: 1.5;
+    text-align: justify;
+    margin: 1rem 0;
+}
+
+p.author {
+    text-align: center;
+}
+
+.article-footer p {
+    margin: 0;
+}
+
+/*Estils cites*/
+
+blockquote {
+    margin-left: 2.5rem;
+    padding-left: 1rem;
+    border-left: 5px solid rgb(254, 105, 106);
+    font-family: Georgia, 'Times New Roman', serif; 
+}
+
+q {
+    quotes: "«" "»";
+}
+
+/*Estils llistes*/
+
+ul,
+ol {
+    padding: 1rem 0 1rem 2.5rem;
+}
+
+li {
+    line-height: 1.5;
+}
+
+.order-list{
+    font-size: 1.25rem;
+}
+
+ul.disc-list {
+    list-style-type: disc;
+    list-style-image: none;
+    font-size: initial;
+}
+
+ul.img-users-list {
+    list-style-image: url("/img/users.svg");
+    font-size: initial;
+}
+
+/*Estils imatges*/
+
+.img-tiktok {
+    width: 100%;
+    height: auto;
+    margin: 1rem auto;
+}
+
+.img-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+figcaption {
+    font-size: 0.7rem;
+    margin: 1rem 0;
+}
+
+/*Estils peu de pàgina*/
+
+footer {
+    background-color: rgb(0,0,0);
+    width: 100%;
+    margin: 3rem auto 0;
+    padding: 1rem 0;
+}
+
+footer li, 
+footer abbr {
+    color: rgb(225,225,225);
+    list-style: none;
+    padding: 0.1rem 0;
+}
